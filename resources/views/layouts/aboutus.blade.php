@@ -8,7 +8,7 @@
       <h1 class="topbanner-title">About Us</h1>
       <div class="breadcrumb">
         <ol class="breadcrumb">
-          <li><a href="index.html">Home</a></li>
+          <li><a href="{{ url('/') }}">Home</a></li>
           <li class="active">About Us</li>
         </ol>
       </div>
@@ -44,7 +44,7 @@ experienced and qualified people are serving them.</p>
 </section>
 <section class="text-center introarea_two">
   <div class="container">
-    <h2>Why Petoma</h2>
+    <h2>Why Narmo</h2>
     <div class="row flow-offset-1">
       <div class="col-xs-6 col-sm-4 icons">
         <div class="iconarea"><img src="images/petoma_workicon.png" alt="" class="Petoma"></div>
@@ -88,7 +88,7 @@ experienced and qualified people are serving them.</p>
 <section class="clientlogo_area">
   <div class="container">
     <div class="row">
-      <h2>Our Clients</h2>
+      <h2></h2>
       <div id="demo">
         <div class="span12">
           <div id="owl-demo" class="owl-carousel">

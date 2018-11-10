@@ -8,7 +8,7 @@
       <h1 class="topbanner-title">Services</h1>
       <div class="breadcrumb">
         <ol class="breadcrumb">
-          <li><a href="index.html">Home</a></li>
+          <li><a href="{{ url('/') }}">Home</a></li>
           <li class="active">Services</li>
         </ol>
       </div>
@@ -104,7 +104,7 @@
                 <div class="col-sm-3 iconsmall"> <img src="images/petoma_trenchicon.png" alt="" class="Petoma"> </div>
                 <div class="col-md-9">
                   <h3>Cable trenches and drains</h3>
-                  <p> Petoma works has done various civil works on substation cable trenches for both government sponsored, World Bank and private companies </p>
+                  <p> Narmo Company has done various civil works on substation cable trenches for both government sponsored, and private companies </p>
                 </div>
               </div>
             </div>

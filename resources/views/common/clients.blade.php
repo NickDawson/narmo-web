@@ -1,7 +1,7 @@
 <section class="clientlogo_area">
   <div class="container">
     <div class="row">
-      <h2>Our Clients</h2>
+      <h2></h2>
       <div id="demo">
         <div class="span12">
           <div id="owl-demo" class="owl-carousel">

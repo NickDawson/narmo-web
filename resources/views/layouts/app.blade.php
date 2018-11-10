@@ -62,16 +62,17 @@
   <header class="topheader">
   <div class="container">
     <div class="row">
-      <div class="logoarea"> <a href="index.html"><img src="images/petoma_logo.png" alt="Petoma" />
+      <div class="logoarea"> <a href="{{ asset('images/narmo_logo.PNG') }}">
+	  
         <h6>Narmo Company Limited</h6>
         </a> </div>
       <div class="headinfo">
         <div class="headinfo-middle phone"> <i class="fa fa-phone"></i>
-          <h4>PHONE</h4>
-          <p>+255766849934 / +255712674281</p>
+          <h5>PHONE</h5>
+          <small>+255766849934 / +255712674281</small>
         </div>
         <div class="headinfo-middle email"> <i class="fa fa-envelope-o"></i>
-          <h4>EMAIL</h4>
+          <h5>EMAIL</h5>
           <a href="mailto:info@narmo.co.tz">info@narmo.co.tz</a></div>
       </div>
     </div>

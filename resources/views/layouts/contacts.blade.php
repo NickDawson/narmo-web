@@ -9,7 +9,7 @@
       <h1 class="topbanner-title">Contact Us</h1>
       <div class="breadcrumb">
         <ol class="breadcrumb">
-          <li><a href="index.html">Home</a></li>
+          <li><a href="{{ url('/') }}">Home</a></li>
           <li class="active">Contacts</li>
         </ol>
       </div>
@@ -68,7 +68,7 @@
                     <div class="controls">
                       <input class="form-control" name="phone" type="text" id="inputPhone" placeholder="Phone" required="">
 					  @if ($errors->has('phone'))
-                      <p class="help-block">{{ $errors->first('phone')}}</p>
+                      <small class="help-block">{{ $errors->first('phone')}}</small>
 				      @endif
                     </div>
                   </div>

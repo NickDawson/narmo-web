@@ -8,8 +8,8 @@
       <h1 class="topbanner-title">Our Leadership</h1>
       <div class="breadcrumb">
         <ol class="breadcrumb">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="aboutus.html">About Us</a></li>
+          <li><a href="{{ url('/') }}">Home</a></li>
+          <li><a href="{{ url('aboutus') }}">About Us</a></li>
           <li class="active">Leadership</li>
         </ol>
       </div>
@@ -20,7 +20,7 @@
   <div class="container">
     <div class="row">
       <p>A team of professionals with hands on expertise in Engineering background and Labour Management</p>
-      <p>Petoma works recognizes Teamwork, Productivity and Values as the necessary ingredients for Success. The management team comprises of professionals with rich experience in project management, risk assessment management, Design and Financial Management.</p>
+      <p>Narmo Company Ltd recognizes Teamwork, Productivity and Values as the necessary ingredients for Success. The management team comprises of professionals with rich experience in project management, risk assessment management, Design and Financial Management.</p>
      
       <article class="orgarea">
         <div class="topstructure">

@@ -8,7 +8,7 @@
       <h1 class="topbanner-title">Gallery</h1>
       <div class="breadcrumb">
         <ol class="breadcrumb">
-          <li><a href="index.html">Home</a></li>
+          <li><a href="{{ url('/') }}">Home</a></li>
           <li class="active">Gallery</li>
         </ol>
       </div>
@@ -18,13 +18,13 @@
 <section class="galleryarea">
   <div class="container">
     <div class="row">
-      <div class="wrapper center"><a href="images/gallerly_landscape1.jpg" data-fancybox-group="1" class="thumb main"><img src="images/gallerly_landscape1.jpg" alt=""><span class="thumb_overlay"></span>
+      <div class="wrapper center"><a href="images/banner1.jpeg" data-fancybox-group="1" class="thumb main"><img src="images/banner1.jpeg" alt=""><span class="thumb_overlay"></span>
         <div class="info-box"> </div>
         </a><a href="images/gallerly_potrate1.jpg" data-fancybox-group="1" class="thumb"><img src="images/gallerly_potrate1.jpg" alt=""><span class="thumb_overlay"></span>
         <div class="info-box"> </div>
         </a><a href="images/gallerly_potrate2.jpg" data-fancybox-group="1" class="thumb"><img src="images/gallerly_potrate2.jpg" alt=""><span class="thumb_overlay"></span>
         <div class="info-box"> </div>
-        </a><a href="images/gallerly_landscape2.jpg" data-fancybox-group="1" class="thumb main"><img src="images/gallerly_landscape2.jpg" alt=""><span class="thumb_overlay"></span>
+        </a><a href="images/projects2.jpeg" data-fancybox-group="1" class="thumb main"><img src="images/projects2.jpeg" alt=""><span class="thumb_overlay"></span>
         <div class="info-box"> </div>
         </a><a href="images/gallerly_potrate3.jpg" data-fancybox-group="1" class="thumb"><img src="images/gallerly_potrate3.jpg" alt=""><span class="thumb_overlay"></span>
         <div class="info-box"> </div>

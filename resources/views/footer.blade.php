@@ -12,7 +12,7 @@
               <li><a href="http://facebook.com">Facebook</a></li>
               <li><a href="http://plus.google.com">Google Plus</a></li>
               <li><a href="http://twitter.com">Twitter</a></li>
-              <li><a href="http://youtube.com">Youtube</a></li>
+              <li><a href="https://www.youtube.com/channel/UC1LpnCnG8OXcgw2iczchhzQ">Youtube</a></li>
             </ul>
           </div>
         </div>

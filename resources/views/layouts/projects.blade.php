@@ -8,7 +8,7 @@
       <h1 class="topbanner-title">Projects</h1>
       <div class="breadcrumb">
         <ol class="breadcrumb">
-          <li><a href="index.html">Home</a></li>
+          <li><a href="{{ url('/') }}">Home</a></li>
           <li class="active">Projects</li>
         </ol>
       </div>

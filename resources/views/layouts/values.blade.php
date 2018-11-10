@@ -8,8 +8,8 @@
       <h1 class="topbanner-title">Our values</h1>
       <div class="breadcrumb">
         <ol class="breadcrumb">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="aboutus.html">About Us</a></li>
+          <li><a href="{{ url('/') }}">Home</a></li>
+          <li><a href="{{ url('aboutus') }}">About Us</a></li>
           <li class="active">Values</li>
         </ol>
       </div>
@@ -23,11 +23,11 @@
         <h2>Our Motto</h2>
         <p>Our motto is the complete satisfaction of our clients by delivering quality construction within
           stipulated time frame.</p>
-        <p>Petoma Works Ltd growth can be attributed towards its capability to adhere its module of adopting, enduring and to remain credible among all its competitors.</p>
+        <p>Narmo Company Ltd growth can be attributed towards its capability to adhere its module of adopting, enduring and to remain credible among all its competitors.</p>
         <h2>Our Mission</h2>
         <p>To become a leader in infrastructure business by providing trust, integrity and customer orientation</p>
         <h2>Our Vision</h2>
-        <p>Petoma Works Ltd works towards being a strong and qualitative conscious company in the area of engineering procurement and construction of infrastructure development.</p>
+        <p>Narmo Company Ltd works towards being a strong and qualitative conscious company in the area of engineering procurement and construction of infrastructure development.</p>
       </div>
       <div class="col-lg-6 aboutpic"> <video width="400" controls>
                   <source src="images/video.mp4" type="video/mp4">
@@ -83,7 +83,7 @@
 <section class="clientlogo_area">
   <div class="container">
     <div class="row">
-      <h2>Our Clients</h2>
+      <h2></h2>
       <div id="demo">
         <div class="span12">
           <div id="owl-demo" class="owl-carousel">
