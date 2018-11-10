@@ -73,7 +73,7 @@
         </div>
         <div class="headinfo-middle email"> <i class="fa fa-envelope-o"></i>
           <h5>EMAIL</h5>
-          <a href="mailto:info@narmo.co.tz">info@narmo.co.tz</a></div>
+          <small><a href="mailto:info@narmo.co.tz">info@narmo.co.tz</a></small></div>
       </div>
     </div>
   </div>

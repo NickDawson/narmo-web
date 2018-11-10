@@ -39,7 +39,7 @@
         <div class="row">
           <div class="col-md-6 col-sm-6 col-xs-4 welcomebanner"> <img src="images/petoma_introbanner.jpg" alt="" class="Petoma"> </div>
           <div class="col-md-6 col-sm-6 col-xs-8">
-            <p>Petoma Works Ltd is an indigenous owned and managed Kenyan firm dealing in civil and structural engineering designs and construction, operating mainly in the East African countries of Kenya, Uganda and Tanzania.</p>
+            <p>Narmo Company Ltd is an indigenous owned and managed Tanzanian firm dealing in civil and structural engineering designs and construction, operating mainly in the East African countries of Kenya, Uganda and Tanzania.</p>
             <a href="{{ url('aboutus')}}" class="btn btn-intro btn-default">learn more</a> </div>
         </div>
       </div>
