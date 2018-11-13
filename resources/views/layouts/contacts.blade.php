@@ -81,9 +81,9 @@
                     <p class="help-block"></p>
 				    @endif
                   </div>
-                  
+                  <br /> 
                   <!-- Submit Button -->
-                  <div class="text-right">
+                  <div class="text-right pull-right">
                     <button type="submit" name="sbutton" value="Send" class="btn btn-primary ">Send!</button>
                   </div>
                 </div>
