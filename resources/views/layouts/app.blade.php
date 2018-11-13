@@ -88,7 +88,7 @@
       <div class="collapse navbar-collapse" id="nav-menu2">
         <ul class="navigation">
           <li class="active"><a href="{{ url('/') }}">Home</a> </li>
-          <li><a href="{{ url('aboutus') }}">About company</a>
+          <li><a href="{{ url('about-us') }}">About company</a>
             <ul>
               <li><a href="{{ url('values') }}">Core Values</a></li>
               <li><a href="{{ url('leadership') }}">Leadership</a></li>
@@ -98,7 +98,7 @@
           <li><a href="{{ url('services') }}">Services</a></li>
           <li><a href="{{ url('projects') }}">Projects</a>
             <ul>
-              <li><a href="{{ url('ongoingprojects') }}">Onging projects</a></li>
+              <li><a href="{{ url('ongoing-projects') }}">Onging projects</a></li>
             </ul>
           </li>
           <li><a href="{{ url('gallery') }}"> Gallery</a></li>

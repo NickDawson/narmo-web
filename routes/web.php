@@ -16,7 +16,7 @@ Route::get('/', function () {
 });
 
 
-Route::get('/aboutus', function () {
+Route::get('/about-us', function () {
     return view('layouts.aboutus');
 });
 
@@ -40,7 +40,7 @@ Route::get('/projects', function () {
     return view('layouts.projects');
 });
 
-Route::get('/ongoingprojects', function () {
+Route::get('/ongoing-projects', function () {
     return view('layouts.ongoingprojects');
 });
 
