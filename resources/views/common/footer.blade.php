@@ -22,10 +22,10 @@
           <h3 class="footer-title"><span>Information</span></h3>
           <ul class="menu">
             <li class="active"><a href="{{ url('/') }}">Home</a> </li>
-            <li><a href="{{ url('aboutus') }}">About company</a></li>
+            <li><a href="{{ url('about-us') }}">About company</a></li>
             <li><a href="{{ url('equipments') }}">Equipments & Machinery</a></li>
             <li><a href="{{ url('services') }}">Services</a></li>
-            <li><a href="{{ url('projects') }}">Projects</a></li>
+            <li><a href="{{ url('ongoing-projects') }}">Projects</a></li>
             <li><a href="{{ url('gallery') }}"> Gallery</a></li>
             <li><a href="{{ url('contacts') }}">Contact Us</a></li>
           </ul>
