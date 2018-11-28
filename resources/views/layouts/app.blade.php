@@ -65,7 +65,8 @@
       <div class="logoarea"> <a href="{{ asset('images/narmo_logo.PNG') }}">
 
         <h6>Narmo Company Limited</h6>
-        </a> </div>
+        </a>
+      </div>
       <!--<div class="headinfo">
         <div class="headinfo-middle phone"> <i class="fa fa-phone"></i>
           <h5>PHONE</h5>
@@ -77,16 +78,15 @@
       </div>-->
 
 
-      <div class="header-contright pull-right">
-          <div class="topcontactinfo">
-          <ul>
-          <li class="phone_icon"><span><a href="callto:#">(+254) 705 184337</span></a></li>
-          <li class="email_icon"><span><a href="mailto:info@arcontoys.com">info@arcontoys.com</a></span></li>
-          </ul>
-          </div>
-          <div class="liparea">Lipa na M-pesa:202977</div>
-        </div>
+     <!-- <div class="header-contright pull-right">
+         <div class="align-right">
+      <ul class="top_contactinfo">
+        <li class="mail_icon"><span><a href="mailto:info@ezeetec.co.ke">info@ezeetec.co.ke</a></span></li>
+        <li class="location_icon"><span>Grevillea Groove, Kyuna Crescent</span></li>
+        <li class="phone_icon"><span>020 444 2745</span></li>
+      </ul>
     </div>
+    </div>-->
   </div>
 </header>
   <div class="mainheader">
