@@ -8,7 +8,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>Narmo Company Limited</title>
-	
+
 	<!---Favicon--->
     <link rel="shortcut icon" href="{{ asset('images/narmo_logo.PNG') }}" type="image/x-icon">
 
@@ -22,7 +22,7 @@
     <script src="{{ asset('js/jquery.bxslider.js') }}"></script>
     <script src="{{ asset('js/scrollReveal.min.js') }}"></script>
     <script src="{{ asset('js/bootstrap.min.js') }}"></script>
-	
+
 	  <style type="text/css">
     #video-style{
     border:2px solid grey;
@@ -30,7 +30,7 @@
 /**Or add your own style**/
 }
     </style type="text/css">
-	
+
 	<style>
     #owl-demo .item{
         margin: 3px;
@@ -42,7 +42,7 @@
     }
     </style>
 
-	
+
 </head>
 
 <body>
@@ -57,16 +57,16 @@
       </div>
     </div>
   </header>-->
-  
-  
+
+
   <header class="topheader">
   <div class="container">
     <div class="row">
       <div class="logoarea"> <a href="{{ asset('images/narmo_logo.PNG') }}">
-	  
+
         <h6>Narmo Company Limited</h6>
         </a> </div>
-      <div class="headinfo">
+      <!--<div class="headinfo">
         <div class="headinfo-middle phone"> <i class="fa fa-phone"></i>
           <h5>PHONE</h5>
           <small>+255766849934 / +255712674281</small>
@@ -74,11 +74,22 @@
         <div class="headinfo-middle email"> <i class="fa fa-envelope-o"></i>
           <h5>EMAIL</h5>
           <small><a href="mailto:info@narmo.co.tz">info@narmo.co.tz</a></small></div>
-      </div>
+      </div>-->
+
+
+      <div class="header-contright pull-right">
+          <div class="topcontactinfo">
+          <ul>
+          <li class="phone_icon"><span><a href="callto:#">(+254) 705 184337</span></a></li>
+          <li class="email_icon"><span><a href="mailto:info@arcontoys.com">info@arcontoys.com</a></span></li>
+          </ul>
+          </div>
+          <div class="liparea">Lipa na M-pesa:202977</div>
+        </div>
     </div>
   </div>
 </header>
-  
+  <div class="mainheader">
   <header class="mainheader">
   <div class="container">
     <nav class="navbar navbar-default navbar-static-top" role="navigation">
@@ -112,9 +123,9 @@
 
 
       @yield('content')
-	  
-	  
-	<script type="text/javascript" src="{{ asset('js/jquery.bxslider.js')}}"></script> 
+
+
+	<script type="text/javascript" src="{{ asset('js/jquery.bxslider.js')}}"></script>
     <script type="text/javascript" src="{{ asset('js/owl.carousel.js')}}"></script>
 
 <script type="text/javascript">
@@ -156,9 +167,9 @@ jQuery(document).ready(function() {
 	navigationText : [
 		  "<i class='fa fa-angle-left'></i>",
 		  "<i class='fa fa-angle-right'></i>"
-		],	
+		],
   });
-}); 
+});
 </script>
 </body>
 </html>
