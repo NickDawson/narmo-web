@@ -61,10 +61,10 @@ h1{
 .topheader{
 	width:100%;
 	display:table;
-	background:#00543d;
+	background:#38A1F3;
 	position:relative;
 }
-/*.topheader:after {
+.topheader:after {
     background: url(../images/blueruler.png) no-repeat;
     bottom: -50px;
     content: "";
@@ -75,7 +75,7 @@ h1{
     right: 0;
     width: 100%;
     height: 50px;
-}*/
+}
 .headinfo{
 	float:right;
 }
